@@ -27,9 +27,9 @@ function CardEditForm({ card }) {
         value={company}
       />
       <select className={styles.select} name="theme" value={theme}>
-        <option value="Light">Light</option>
-        <option value="Dark">Dark</option>
-        <option value="Colorful">Colorful</option>
+        <option value="light">light</option>
+        <option value="dark">dark</option>
+        <option value="colorful">colorful</option>
       </select>
       <input className={styles.input} type="text" name="title" value={title} />
       <input className={styles.input} type="text" name="email" value={email} />
